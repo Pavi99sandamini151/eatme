@@ -15,9 +15,12 @@
         padding-right: 10px;
     }
 
-    .card {
+    &-card {
         background-color: $fooer-col-bg;
         padding: 10px !important;
+        color: $white;
+        margin-right: 10px;
+        width: 20vw;
     }
 
     .subtitle {
@@ -52,6 +55,7 @@
         font-size: 14px;
         text-decoration: none !important;
         cursor: pointer;
+        color: $white !important;
     }
 
     .link:hover {
